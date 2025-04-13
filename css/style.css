@@ -89,13 +89,12 @@ nav{
     position: relative;
 }
 .banner_image{
-    position: absolute;
-    width: 855px;
-    height: 646px;
-    top: 0;
-    right: 0;
-    background: url(../images/banner_image.png);
-    background-size: cover;
+  position: absolute;
+  max-width: 885px;
+  min-width: 500px;
+  height: 646px;
+  top: 0;
+  right: 0;
 }
 .banner_text h1{
     font-family: var(--brand_fontFamily);
@@ -139,6 +138,7 @@ nav{
     font-family: var(--brand_fontFamily);
     font-size: 18px;
     font-weight: 500;
+    width: 87px;
 }
 .arrow_n_spin{
     align-items: center;
