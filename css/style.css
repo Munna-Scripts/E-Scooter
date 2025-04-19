@@ -446,8 +446,44 @@ a.learn-more .circle .icon.arrow {
   animation: rotate-btn 10s linear infinite;
 }
 /* --------------------Banner Ending----------------------- */
-/* --------------------Navbar Starting----------------------- */
-/* --------------------Navbar Ending----------------------- */
+/* ------------------Counter Part Starting----------------------- */
+#counter{
+  margin: 160px;
+}
+.counter_box{
+  width: 191px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 28px 36px 33px 36px;
+  border-radius: 7px;
+}
+.counter_box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+}
+.counter_box h2 span{
+  color: var(--brand_color);
+  font-family: var(--brand_fontFamily);
+  font-weight: 700;
+  font-size: 40px;
+}
+.counter_box h2 {
+  color: var(--brand_color);
+  font-family: var(--brand_fontFamily);
+  font-weight: 700;
+  font-size: 18px;
+}
+.counter_box p{
+  font-family: var(--brand_fontFamily);
+  font-size: 13px;
+}
+.big_box{
+  width: 211px;
+  padding-left: -1px;
+}
+/* ------------------Counter Part Ending----------------------- */
 /* --------------------Navbar Starting----------------------- */
 /* --------------------Navbar Ending----------------------- */
 /* --------------------Navbar Starting----------------------- */
