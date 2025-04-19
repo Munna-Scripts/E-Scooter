@@ -104,17 +104,24 @@ nav {
 #banner {
   padding-top: 84px;
   position: relative;
+  overflow: hidden;
 }
 
 .banner_image {
   position: absolute;
   max-width: 885px;
-  min-width: 500px;
+  min-width: 510px;
   height: 646px;
-  top: 0;
+  top: 92px;
   right: 0;
 }
-
+.banner_image img:nth-child(2){
+  position: absolute;
+  width: 855px;
+  right: 0;
+  top: 0;
+  
+}
 .banner_text h1 {
   font-family: var(--brand_fontFamily);
   color: var(--brand_color);
@@ -404,10 +411,18 @@ a.learn-more .button-text {
   }
 }
 /* --------circle rotate text------- */
+a.learn-more .circle .icon.arrow::before {
+  top: -4px;
+  right: 0px;
+}
+a.learn-more .circle .icon.arrow {
+  background: white;
+}
 .go-down-btn {
   position: relative;
   z-index: 1;
   display: inline-block;
+  transform: rotate(-95deg);
 
   svg {
     position: relative;
