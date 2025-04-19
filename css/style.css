@@ -511,7 +511,6 @@ a.learn-more .circle .icon.arrow {
 .product_icon{
   display: flex;
   align-items: center;
-  justify-content: end;
   gap: 18px;
   margin-bottom: 34px;
 }
