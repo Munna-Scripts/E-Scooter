@@ -739,6 +739,50 @@ a.learn-more .circle .icon.arrow {
 #subscribe{
   margin-top: 121px;
 }
+#subscribe .commonHead h2{
+  padding-bottom: 11px;
+}
+#subscribe .commonHead{
+  margin-bottom: 59px;
+}
+.subs_input{
+  margin-top: 59px;
+  position: relative;
+  width: 616px;
+  height: 81px;
+  margin: 0 auto;
+}
+.subs_input input{
+  border: 1px solid #F5F5F5;
+  border-radius: 10px;
+  outline: none;
+  width: 616px;
+  height: 81px;
+  padding-left: 38px;
+}
+.subs_input input::placeholder{
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-size: 20px;
+  font-weight: 400;
+}
+.input_button{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.input_button button{
+  width: 196px;
+  height: 81px;
+  border: none;
+  border: 1px solid #F5F5F5;
+  background-color: var(--brand_color);
+  font-family: var(--brand_fontFamily);
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  border-radius: 10px;
+}
 /* ------------------Subscribe Ending----------------------- */
 /* ------------------Footer Ending----------------------- */
 /* ------------------Footer Ending----------------------- */
