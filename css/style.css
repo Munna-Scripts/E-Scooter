@@ -646,11 +646,15 @@ a.learn-more .circle .icon.arrow {
 #testimonials{
   margin-top: 304px;
   background-color: #FAFAFA;
+  padding-top: 78px;
+  padding-bottom: 82px;
 }
 .review_card{
   width: 360px;
+  height: 366px;
   border: 1px solid #D8D8D8;
   padding: 52px 22px 51px 34px;
+  transition: all 300ms ease-in-out;
 }
 .review_card .stars{
   display: flex;
@@ -700,6 +704,8 @@ a.learn-more .circle .icon.arrow {
  align-items: center;
  justify-content: center;
  color: var(--brand_color);
+ transition: all 500ms ease-in-out;
+
 }
 .prr{
   left: 46%;
@@ -719,8 +725,20 @@ a.learn-more .circle .icon.arrow {
   border-radius: 50%;
   font-size: 18px;
 }
+.arrows:hover{
+  background-color: #42454A;
+  border: none;
+  color: white;
+  transform: scale(1.1);
+}
+.review_card:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
 /* ------------------Testimonials Ending-------------------- */
 /* ------------------Subscribe Ending----------------------- */
+#subscribe{
+  margin-top: 121px;
+}
 /* ------------------Subscribe Ending----------------------- */
 /* ------------------Footer Ending----------------------- */
 /* ------------------Footer Ending----------------------- */
