@@ -26,7 +26,25 @@ p {
 a {
   text-decoration: none;
 }
-
+img{
+  vertical-align: middle;
+}
+.commonHead{
+  text-align: center;
+}
+.commonHead h2{
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  padding-bottom: 34px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.commonHead p{
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-size: 20px;
+  font-weight: 400;
+}
 /* -------------------------Roots----------------------- */
 :root {
   --brand_color: #42454A;
@@ -488,22 +506,7 @@ a.learn-more .circle .icon.arrow {
 #product{
   margin-top: 127px;
 }
-.product_text{
-  text-align: center;
-}
-.product_text h2{
-  font-family: var(--brand_fontFamily);
-  color: var(--brand_color);
-  padding-bottom: 34px;
-  font-size: 50px;
-  font-weight: 700;
-}
-.product_text p{
-  font-family: var(--brand_fontFamily);
-  color: var(--brand_color);
-  font-size: 20px;
-  font-weight: 400;
-}
+
 .product_row{
   align-items: center;
   margin-top: 22px;
@@ -514,12 +517,106 @@ a.learn-more .circle .icon.arrow {
   gap: 18px;
   margin-bottom: 34px;
 }
+.product_icon p{
+  font-size: 17px;
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-weight: 400;
+}
 /* ------------------Product info Ending------------------ */
-/* ------------------Navbar Starting----------------------- */
+/* ------------------Efficiency Starting----------------------- */
 #efficiency{
   margin-top: 127px;
 }
 .efficiency_img{
   margin-top: 49px;
 }
-/* ------------------Navbar Ending----------------------- */
+
+/* ------------------Efficiency Ending----------------------- */
+/* ------------------Accessories Starting----------------------- */
+#accessories{
+  margin-top: 315px;
+}
+.accessories_row{
+  margin-top: 160px;
+}
+.accessories_row .list_head h2{
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+.accessories_row .accessories_list{
+  align-items: center;
+  justify-content: start;
+  margin-top: 22px;
+}
+.accessories_list .product_icon{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 34px;
+}
+.accessories_list p{
+  font-size: 20px;
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-weight: 400;
+}
+.rw1{
+  margin-bottom: 112px;
+}
+.rw2{
+  margin-right: 0px;
+}
+.ai2 img{
+  width: 779px;
+}
+.more_accessories{
+  width: 570px;
+  border: 3px solid var(--brand_color);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 74px;
+}
+.more_accessories h2{
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 29px 63px;
+}
+/* ------------------Accessories Ending----------------------- */
+/* ------------------Gallery Starting----------------------- */
+#gallery{
+  margin-top: 127px;
+}
+.gallery_left{
+  margin-top: 302px;
+}
+.gallery_buttons .b1{
+  width: 570px;
+  border: 3px solid var(--brand_color);
+  border-radius: 10px;
+  margin-top: 55px;
+}
+.gallery_buttons .b1 h2{
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 29px 170px;
+}
+/* ------------------Gallery Ending----------------------- */
+/* ------------------Colors Starting----------------------- */
+/* ------------------Colors Ending----------------------- */
+/* ------------------Testimonials Starting------------------ */
+/* ------------------Testimonials Ending-------------------- */
+/* ------------------Subscribe Ending----------------------- */
+/* ------------------Subscribe Ending----------------------- */
+/* ------------------Footer Ending----------------------- */
+/* ------------------Footer Ending----------------------- */
+
+
