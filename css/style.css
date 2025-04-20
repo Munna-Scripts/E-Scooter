@@ -643,7 +643,82 @@ a.learn-more .circle .icon.arrow {
 }
 /* ------------------Colors Ending----------------------- */
 /* ------------------Testimonials Starting------------------ */
-
+#testimonials{
+  margin-top: 304px;
+  background-color: #FAFAFA;
+}
+.review_card{
+  width: 360px;
+  border: 1px solid #D8D8D8;
+  padding: 52px 22px 51px 34px;
+}
+.review_card .stars{
+  display: flex;
+  place-content: center;
+}
+.review_card .stars i{
+  color: #FE8B75;
+}
+.review_card p{
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-size: 20px;
+  text-align: center;
+  width: 304px;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 47px;
+}
+.profile h2{
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.profile h3{
+  font-family: var(--brand_fontFamily);
+  color: var(--brand_color);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+  margin: 0;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.testimonials_slider{
+  position: relative;
+}
+.arrows{
+ position: absolute;
+ right: 40%;
+ bottom: -80px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: var(--brand_color);
+}
+.prr{
+  left: 46%;
+  bottom: -80px;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #42454A;
+  border-radius: 50%;
+  font-size: 18px;
+}
+.nrr{
+  right: 46%;
+  width: 42px;
+  height: 42px;
+  bottom: -80px;
+  border: 1px solid #42454A;
+  border-radius: 50%;
+  font-size: 18px;
+}
 /* ------------------Testimonials Ending-------------------- */
 /* ------------------Subscribe Ending----------------------- */
 /* ------------------Subscribe Ending----------------------- */

@@ -68,3 +68,13 @@ $('.slider-nav').slick({
   focusOnSelect: true,
   arrows:false,
 });
+
+// Slider js 2
+$('.testimonials_slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows:true,
+  prevArrow:'<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
+  nextArrow:'<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
+});
