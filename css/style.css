@@ -621,8 +621,29 @@ a.learn-more .circle .icon.arrow {
 }
 /* ------------------Gallery Ending----------------------- */
 /* ------------------Colors Starting----------------------- */
+#color{
+  margin-top: 128px;
+}
+.slider_row{
+  margin-top: 104px;
+}
+.colorSlider{
+  position: relative;
+}
+.Single_slider img{
+  width: 100%;
+}
+.slider_nav{
+  position: absolute;
+  width: 100% !important;
+  top: -126px;
+}
+.navImage img{
+  width: 245px;
+}
 /* ------------------Colors Ending----------------------- */
 /* ------------------Testimonials Starting------------------ */
+
 /* ------------------Testimonials Ending-------------------- */
 /* ------------------Subscribe Ending----------------------- */
 /* ------------------Subscribe Ending----------------------- */
