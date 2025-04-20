@@ -605,9 +605,19 @@ a.learn-more .circle .icon.arrow {
 .gallery_buttons .b1 h2{
   font-family: var(--brand_fontFamily);
   color: var(--brand_color);
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
-  padding: 29px 170px;
+  padding: 29px 130px;
+  text-align: center;
+}
+.gallery_buttons .b1:nth-child(2), .b1:nth-child(3){
+  margin-top: 27px;
+}
+.gallery_right .galleryR8Image{
+  margin-top: 112px;
+}
+.galleryR8Image img:nth-child(2){
+  margin-top: 96px;
 }
 /* ------------------Gallery Ending----------------------- */
 /* ------------------Colors Starting----------------------- */
