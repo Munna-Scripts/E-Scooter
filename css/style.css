@@ -634,10 +634,10 @@ a.learn-more .circle .icon.arrow {
 .Single_slider img{
   width: 100%;
 }
-.slider_nav{
+.slider_nav {
   position: absolute;
-  width: 100% !important;
-  top: -126px;
+  width: 100%;
+  top: 720px;
 }
 .navImage img{
   width: 245px;
