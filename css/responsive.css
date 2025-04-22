@@ -242,6 +242,34 @@ a.learn-more .circle {
 	text-align: center;
 }
 /* ------------------Accessories Ending----------------------- */
+/* ------------------Gallery Starting----------------------- */
+#gallery {
+	margin-top: 80px;
+}
+.galleryImage1 img, .galleryR8Image img{
+	width: 100%;
+}
+.gallery_left {
+	margin-top: 70px;
+}
+.gallery_buttons .b1 {
+	width: 100%;
+	margin-top: 25px;
+}
+.gallery_buttons .b1 h2 {
+	font-size: 21px;
+	padding: 19px 27px;
+}
+.gallery_buttons .b1:nth-child(2), .b1:nth-child(3) {
+	margin-top: 17px;
+}
+.gallery_right .galleryR8Image {
+	margin-top: 18px;
+}
+.galleryR8Image img:nth-child(2) {
+	margin-top: 40px;
+}
+/* ------------------Gallery Ending----------------------- */
 
 
 
