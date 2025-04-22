@@ -93,4 +93,14 @@ $('.testimonials_slider').slick({
   arrows:true,
   prevArrow:'<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
   nextArrow:'<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
+  responsive: [
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
 });

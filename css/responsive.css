@@ -341,11 +341,34 @@ a.learn-more .circle {
 .slick-dots .slick-active button{
     background-color: #CF0000;
 }
+.slider_nav {
+	display: none;
+}
 /* ------------------Colors Ending----------------------- */
-
-
-
-
+/* ------------------Testimonials Starting------------------ */
+#testimonials {
+	margin-top: 40px;
+}
+.review_card {
+	width: 100%;
+	height: 366px;
+	border: 1px solid #D8D8D8;
+	padding: 52px 22px 51px 34px;
+	transition: all 300ms ease-in-out;
+}
+.review_card p {
+	font-size: 15px;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+.review_card {
+	width: 100%;
+	height: 307px;
+	padding: 35px 22px 35px 22px;
+	transition: all 300ms ease-in-out;
+}
+/* ------------------Testimonials Ending------------------ */
 
 
 
