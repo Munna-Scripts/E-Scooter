@@ -270,6 +270,78 @@ a.learn-more .circle {
 	margin-top: 40px;
 }
 /* ------------------Gallery Ending----------------------- */
+/* ------------------Colors Starting----------------------- */
+#color {
+	margin-top: 85px;
+}
+.slider_row {
+	margin-top: 44px;
+}
+.colorSlider{
+	position: relative;
+}
+.arrows{
+   position: absolute;
+   right: 40%;
+   bottom: -80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--brand_color);
+   transition: all 500ms ease-in-out;
+  
+}
+.prr{
+	left: 42%;
+	bottom: -50px;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #42454A;
+	border-radius: 50%;
+	font-size: 15px;
+}
+.nrr{
+	right: 30%;
+	width: 32px;
+	height: 32px;
+	bottom: -50px;
+	border: 1px solid #42454A;
+	border-radius: 50%;
+	font-size: 15px;
+}
+.arrows:hover{
+	background-color: #42454A;
+	border: none;
+	color: white;
+	transform: scale(1.1);
+}
+.slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 14px;
+	gap: 17px;
+	transition: all 300ms ease-in-out;
+	
+	li{
+		button{
+			font-size: 0;
+			font-size: 0;
+    		height: 8px;
+    		width: 8px;
+    		border-radius: 50%;
+    		outline: none;
+    		border: none;
+    		background-color: #5c5c5c;
+    		transition: all 300ms ease-in-out;
+		}
+	}
+}
+
+.slick-dots .slick-active button{
+    background-color: #CF0000;
+}
+/* ------------------Colors Ending----------------------- */
 
 
 

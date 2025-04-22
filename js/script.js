@@ -57,7 +57,23 @@ $('.slider-for').slick({
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  asNavFor: '.slider-nav'
+  asNavFor: '.slider-nav',
+  responsive: [,
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:true,
+        dots:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+        infinite:true,
+        prevArrow:'<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
+        nextArrow:'<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
+      }
+    }
+  ]
 });
 $('.slider-nav').slick({
   slidesToShow: 4,
