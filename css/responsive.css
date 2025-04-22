@@ -176,7 +176,7 @@ a.learn-more .circle {
 }
 .commonHead h2 {
 	font-size: 28px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 .commonHead p {
 	font-size: 15px;
@@ -195,6 +195,53 @@ a.learn-more .circle {
 	font-size: 13px;
 }
 /* ------------------Product info Ending----------------- */
+/* ------------------Efficiency Starting----------------------- */
+#efficiency {
+	margin-top: 60px;
+}
+.efficiency_img {
+	margin-top: 55px;
+
+	img{
+		width: 100%;
+	}
+}
+/* ------------------Efficiency Ending----------------------- */
+/* ------------------Accessories Starting----------------------- */
+#accessories {
+	margin-top: 115px;
+}
+.accessories_row {
+	margin-top: 70px;
+}
+.rw1 {
+	margin-bottom: 70px;
+}
+.rw2 .col-lg-4{
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.accessories_row .list_head h2 {
+	font-size: 24px;
+}
+.accessories_list .product_icon {
+	gap: 8px;
+	margin-bottom: 14px;
+}
+.accessories_image img, .ai2 img{
+	width: 100%;
+}
+.more_accessories {
+	width: 100%;
+	border: 2px solid var(--brand_color);
+	margin-top: 36px;
+}
+.more_accessories h2 {
+	font-size: 18px;
+	padding: 19px 4px;
+	text-align: center;
+}
+/* ------------------Accessories Ending----------------------- */
 
 
 
