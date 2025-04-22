@@ -1,6 +1,6 @@
 /* -----------------SM Device Start-------------------- */
 @media (max-width: 575.98px) {
-/* --------Navbar Starting------------ */
+/* -------------------Navbar Starting------------------- */
 nav {
     padding: 10px 0 !important;
     border-bottom: 1px solid #EAE8F3;
@@ -83,10 +83,59 @@ nav {
 .offcanvas-backdrop {
 	z-index: 998;
 }
-/* --------Navbar Ending------------ */
+/* --------------------Navbar Ending------------------------- */
+/* --------------------Banner Starting----------------------- */
 #banner {
     z-index: -5;
+	padding-top: 45px;
 }
+.Device-res{
+	display: block;
+	img{
+		width: 100%;
+	}
+}
+.banner_image {
+	display: none;
+}
+.banner_text h1 {
+	font-size: 40px;
+	width: 100%;
+}
+.banner_text h2 {
+	font-size: 40px;
+}
+.banner_line {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	width: 58%;
+}
+.banner_text p {
+	font-size: 18px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.arrow_n_spin {
+	gap: 45px;
+}
+a.learn-more .circle {
+	width: 40px;
+	height: 40px;
+}
+.spinning_text p {
+	font-size: 15px;
+	width: 77px;
+}
+.go-down-btn {
+	transform: translate(0px, -10px);
+}
+.go-down-btn svg {
+	position: relative;
+	z-index: -1;
+	display: block;
+	width: 70px;
+}
+/* --------------------Banner Ending----------------------- */
 
 
 
