@@ -170,6 +170,31 @@ a.learn-more .circle {
 	color: #FAFAFA;
 }
 /* ----------------Counter Part Ending-----------   -------- */
+/* ------------------Product info Starting----------------- */
+#product {
+	margin-top: 100px;
+}
+.commonHead h2 {
+	font-size: 28px;
+	padding-bottom: 30px;
+}
+.commonHead p {
+	font-size: 15px;
+}
+.product_img img{
+	width: 100%;
+}
+.product_icon {
+	gap: 8px;
+	margin-bottom: 16px;
+}
+.product_icon img{
+	width: 30px;
+}
+.product_icon p {
+	font-size: 13px;
+}
+/* ------------------Product info Ending----------------- */
 
 
 
