@@ -1349,7 +1349,15 @@
 	.product_icon p {
 		font-size: 13px;
 	}
-
+	.product_row{
+		margin-top: 50px;
+	}
+	.product_row .col-lg-8{
+		width: 50%;
+	}
+	.list_product{
+		width: 50%;
+	}
 	/* ------------------Product info Ending----------------- */
 	/* ------------------Efficiency Starting----------------------- */
 	#efficiency {
@@ -1377,12 +1385,20 @@
 	.rw1 {
 		margin-bottom: 70px;
 	}
-
+	.rw1 .col-lg-4{
+		width: 30%;
+	}
+	.rw1 .col-lg-8{
+		width: 70%;
+	}
 	.rw2 .col-lg-4 {
 		margin-left: 15px;
 		margin-top: 20px;
+		width: 48%;
 	}
-
+	.rw2 .col-lg-8{
+		width: 50%;
+	}
 	.accessories_row .list_head h2 {
 		font-size: 24px;
 	}
