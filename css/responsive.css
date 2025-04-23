@@ -546,7 +546,6 @@
 	}
 }
 /* -----------------MD Device Start-------------------- */
-
 @media (min-width: 576px) and (max-width: 767.98px) {
 
 	/* -------------------Navbar Starting------------------- */
@@ -1660,122 +1659,17 @@
 
 	/* -------------------Navbar Starting------------------- */
 	nav {
-		padding: 10px 0 !important;
-		border-bottom: 1px solid #EAE8F3;
-	}
-
-	.navbar-brand img {
-		width: 60px;
-	}
-
-	.offcanvas {
-		max-width: 60%;
-		transition: all 300ms ease-in-out;
-	}
-
-	.navbar-toggler .bx {
-		font-size: 30px;
-	}
-
-	.nav_links li a {
-		color: #FAFAFA !important;
-	}
-
-	.nav_links {
-		gap: 20px;
-		align-items: center;
-	}
-
-	.nav_links {
-		gap: 26px;
-		margin-bottom: 24px !important;
-	}
-
-	.nav_buttons {
-		gap: 7px;
-		flex-wrap: nowrap;
-	}
-
-	.navbar-toggler:focus {
-		outline: none;
-		box-shadow: none;
-	}
-
-	.offcanvas.offcanvas-end {
-		height: 100vh;
-		z-index: 999 !important;
-	}
-
-	.navbar-toggler {
-		padding: 5px;
-	}
-
-	.offcanvas-header {
-		background-color: #42454A;
-		display: flex;
-		align-content: center;
-		justify-content: space-between;
-	}
-
-	.nav_buttons .button {
-		color: #42454A;
-		font-size: 12px;
-		padding: 9px 18px;
-		background-color: white;
-		border-radius: 4px;
-		letter-spacing: 0px;
-		text-align: center;
-		width: 100%;
-	}
-
-	.button:hover {
-		color: #FAFAFA;
-		transform: scale(1.1);
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-	}
-
-	.button::before {
-		background-color: #42454A;
-	}
-
-	.offcanvas-header h5 img {
-		width: 60px;
-	}
-
-	.offcanvas-header .btn-close {
-		margin-left: 46px;
-		background-color: white;
-		font-size: 15px;
-	}
-
-	.offcanvas-body {
-		background-color: #42454A;
-	}
-
-	.offcanvas-title {
-		color: white;
-	}
-
-	.offcanvas-backdrop {
-		z-index: 998;
-	}
-	.offcanvas {
-		max-width: 50%;
-		transition: all 300ms ease-in-out;
+		padding: 15px 0 !important;
 	}
 	/* --------------------Navbar Ending------------------------- */
 	/* --------------------Banner Starting----------------------- */
-	#banner {
-		z-index: -5;
-		padding-top: 45px;
-	}
 
 	.Device-res {
 		display: block;
 		position: absolute;
 		top: 5%;
 		right: 0;
-		width: 400px;
+		width: 510px;
 		
 		img{
 			width: 100%;
@@ -1786,90 +1680,50 @@
 	}
 
 	.banner_text h1 {
-		font-size: 46px;
+		font-size: 56px;
 		width: 100%;
 	}
 
 	.banner_text h2 {
-		font-size: 48px;
+		font-size: 60px;
 	}
 
 	.banner_line {
-		margin-top: 10px;
-		margin-bottom: 30px;
-		width: 30%;
+		margin-top: 20px;
+		margin-bottom: 40px;
+		width: 25%;
 	}
 
 	.banner_text p {
-		font-size: 18px;
-		width: 41%;
+		font-size: 20px;
+    	width: 34%;;
 		margin-bottom: 56px;
 	}
 
-	.arrow_n_spin {
-		gap: 45px;
-		display: flex !important;
- 		width: 32% !important;
- 		flex-wrap: nowrap;
- 		align-content: center !important;
-	}
-	.arrow_n_spin .col-lg-2{
-		padding-bottom: 30px;
-	}
-	a.learn-more .circle {
-		width: 40px;
-		height: 40px;
-	}
 
-	.spinning_text p {
-		font-size: 15px;
-		width: 77px;
-	}
-
-	.go-down-btn {
-		transform: translate(0px, -10px);
-	}
-
-	.go-down-btn svg {
-		position: relative;
-		z-index: -1;
-		display: block;
-		width: 70px;
-	}
 
 	/* --------------------Banner Ending----------------------- */
 	/* -----------------Counter Part Starting------------------- */
 	#counter {
-		margin: 30px 0;
+		margin: 45px 0;
 	}
-	#counter .col-lg-2{
-		width: 32%;
-	}
-	.counter_row {
-		gap: 6px !important;
-	}
-
 	.counter_box {
 		width: 100%;
-		background-color: #42454A;
-		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 		gap: 8px;
-		padding: 17px 36px 26px 36px;
+		padding: 17px 16px 26px 16px;
 	}
 
 	.counter_box h2 {
-		color: #FAFAFA;
-		font-size: 14px;
+
+		font-size: 13px;
 	}
 
 	.counter_box h2 span {
-		color: #FAFAFA;
 		font-size: 30px;
 	}
 
 	.counter_box p {
-		font-size: 12px;
-		color: #FAFAFA;
+		font-size: 11px;
 	}
 
 	/* ----------------Counter Part Ending-----------   -------- */
@@ -1879,12 +1733,12 @@
 	}
 
 	.commonHead h2 {
-		font-size: 28px;
+		font-size: 40px;
 		padding-bottom: 20px;
 	}
 
 	.commonHead p {
-		font-size: 15px;
+		font-size: 20px;
 	}
 
 	.product_img img {
@@ -1892,30 +1746,28 @@
 	}
 
 	.product_icon {
-		gap: 8px;
+		gap: 10px;
 		margin-bottom: 16px;
 	}
 
 	.product_icon img {
-		width: 30px;
+		width: 35px;
 	}
 
 	.product_icon p {
-		font-size: 13px;
+		font-size: 15px;
 	}
-	.product_row{
-		margin-top: 50px;
-	}
+
 	.product_row .col-lg-8{
-		width: 50%;
+		width: 55%;
 	}
 	.list_product{
-		width: 50%;
+		width: 45%;
 	}
 	/* ------------------Product info Ending----------------- */
 	/* ------------------Efficiency Starting----------------------- */
 	#efficiency {
-		margin-top: 60px;
+		margin-top: 100px;
 	}
 
 	.efficiency_img {
@@ -1968,7 +1820,6 @@
 	}
 
 	.more_accessories {
-		width: 100%;
 		border: 2px solid var(--brand_color);
 		margin-top: 36px;
 	}
@@ -1978,11 +1829,13 @@
 		padding: 19px 4px;
 		text-align: center;
 	}
-
+	.more_accessories {
+		width: 400px;
+	}
 	/* ------------------Accessories Ending----------------------- */
 	/* ------------------Gallery Starting----------------------- */
 	#gallery {
-		margin-top: 80px;
+		margin-top: 140px;
 	}
 	#gallery .col-lg-6{
 		width: 50%;
@@ -2059,7 +1912,7 @@
 	}
 
 	.nrr {
-		right: 42%;
+		right: 44%;
 		width: 32px;
 		height: 32px;
 		bottom: -50px;
@@ -2155,7 +2008,7 @@
 	}
 
 	.footer_image img {
-		width: 60%;
+		width: 54%;
 	}
 
 	.footer_image {
@@ -2186,11 +2039,15 @@
 		font-size: 13px;
 		padding-top: 18px;
 	}
-
+	.footer_row {
+		margin-top: 86px;
+	}
 	.footer_navLinks .footer_icons a {
 		font-size: 25px;
 	}
-
+	footer .frs{
+		margin-top: 60px;
+	}
 	.Btn .BG {
 		top: 0;
 		width: 85%;
@@ -2199,15 +2056,15 @@
 	.col_s .footer_row{
 		margin-top: 20px;
 	}
+	footer .col_m{
+		width: 22%;
+	}
 	.copyright h2 {
 		color: #FBFBFB;
 		font-size: 20px;
 		font-weight: 600;
 		text-align: center;
-		margin-top: 100px;
-	}
-	footer .col_m{
-		width: 33%;
+		margin-top: 0;
 	}
 }
 /* -----------------XXL Device Start-------------------- */

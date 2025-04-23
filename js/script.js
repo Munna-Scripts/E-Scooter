@@ -96,6 +96,18 @@ $('.slider-for').slick({
         prevArrow:'<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
         nextArrow:'<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
       },
+      breakpoint: 1199,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:true,
+        dots:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+        infinite:true,
+        prevArrow:'<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
+        nextArrow:'<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
+      },
     }
   ]
 });
@@ -107,6 +119,7 @@ $('.slider-nav').slick({
   centerMode: true,
   focusOnSelect: true,
   arrows:false,
+  
 });
 
 // Slider js 2
