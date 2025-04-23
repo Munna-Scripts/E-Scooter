@@ -16,11 +16,6 @@
 		transition: all 300ms ease-in-out;
 	}
 
-	.offcanvas.offcanvas-end {
-		right: 960px;
-		width: auto;
-	}
-
 	.navbar-toggler .bx {
 		font-size: 30px;
 	}
