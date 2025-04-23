@@ -1,5 +1,5 @@
 /* -----------------SM Device Start-------------------- */
-@media (max-width: 575.98px) {
+@media (min-width: 0px) and (max-width: 575.98px) {
 
 	/* -------------------Navbar Starting------------------- */
 	nav {
@@ -650,7 +650,10 @@
 	.offcanvas-backdrop {
 		z-index: 998;
 	}
-
+	.offcanvas {
+		max-width: 50%;
+		transition: all 300ms ease-in-out;
+	}
 	/* --------------------Navbar Ending------------------------- */
 	/* --------------------Banner Starting----------------------- */
 	#banner {
@@ -660,12 +663,15 @@
 
 	.Device-res {
 		display: block;
-
-		img {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		width: 304px;
+		
+		img{
 			width: 100%;
 		}
 	}
-
 	.banner_image {
 		display: none;
 	}
@@ -918,7 +924,7 @@
 	}
 
 	.nrr {
-		right: 30%;
+		right: 40%;
 		width: 32px;
 		height: 32px;
 		bottom: -50px;
@@ -972,8 +978,8 @@
 	}
 
 	.review_card {
-		width: 100%;
-		height: 366px;
+		width: 95% !important;
+    	height: 335px;
 		border: 1px solid #D8D8D8;
 		padding: 52px 22px 51px 34px;
 		transition: all 300ms ease-in-out;
@@ -1043,7 +1049,7 @@
 	}
 
 	.footer_image img {
-		width: 100%;
+		width: 55%;
 	}
 
 	.footer_image {
@@ -1062,7 +1068,7 @@
 	}
 
 	footer .col-lg-4 {
-		margin-top: 70px;
+		margin-top: 90px;
 	}
 
 	footer .col_m {
