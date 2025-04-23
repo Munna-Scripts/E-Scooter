@@ -1138,7 +1138,7 @@
 
 	.nav_buttons {
 		gap: 7px;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 	}
 
 	.navbar-toggler:focus {
@@ -1218,9 +1218,9 @@
 	.Device-res {
 		display: block;
 		position: absolute;
-		top: 50%;
+		top: 5%;
 		right: 0;
-		width: 304px;
+		width: 400px;
 		
 		img{
 			width: 100%;
@@ -1231,30 +1231,36 @@
 	}
 
 	.banner_text h1 {
-		font-size: 40px;
+		font-size: 46px;
 		width: 100%;
 	}
 
 	.banner_text h2 {
-		font-size: 40px;
+		font-size: 48px;
 	}
 
 	.banner_line {
-		margin-top: 0px;
-		margin-bottom: 20px;
-		width: 58%;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		width: 30%;
 	}
 
 	.banner_text p {
 		font-size: 18px;
-		width: 100%;
-		margin-bottom: 25px;
+		width: 41%;
+		margin-bottom: 56px;
 	}
 
 	.arrow_n_spin {
 		gap: 45px;
+		display: flex !important;
+ 		width: 32% !important;
+ 		flex-wrap: nowrap;
+ 		align-content: center !important;
 	}
-
+	.arrow_n_spin .col-lg-2{
+		padding-bottom: 30px;
+	}
 	a.learn-more .circle {
 		width: 40px;
 		height: 40px;
