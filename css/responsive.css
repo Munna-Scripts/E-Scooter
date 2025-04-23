@@ -1430,7 +1430,12 @@
 	#gallery {
 		margin-top: 80px;
 	}
-
+	#gallery .col-lg-6{
+		width: 50%;
+	}
+	#gallery .commonHead{
+		margin-bottom: 30px;
+	}
 	.galleryImage1 img,
 	.galleryR8Image img {
 		width: 100%;
